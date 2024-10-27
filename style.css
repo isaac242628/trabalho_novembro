@@ -7,45 +7,36 @@
     --fundo: #f8f9fa;
     --cabecalho: #f8f9fa00;
 }
-body {
-    font-family: 'Arial', sans-serif;
+*{
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.header{
+    background: linear-gradient(90deg, rgba(93,224,230,1) 0%, rgba(0,74,173,1) 100%);
     padding: 20px;
-    text-align: center;
-    font-size: 24px;
-}
-
-main {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap; /* quebra linha quando a tela for piquena */
+    justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 80px); /* Altura total menos a altura do cabeçalho */
 }
 
-.presentation-box {
-    background: linear-gradient(135deg, #b3e6ff, #0084ff);
-    border-radius: 20px;
-    width: 60%;
-    max-width: 800px;
-    padding: 40px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #fff;
+.menu{
+    display: flex;
 }
 
-.presentation-box h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
+.menu li{
+    margin-left: 20px;
 }
 
-.presentation-box p {
-    font-size: 16px;
-    line-height: 1.5;
+.menu li a{
+    display: block; /* ocupa automaticamente toda a largura disponível no contêiner pai */
+    padding: 10px;
 }
