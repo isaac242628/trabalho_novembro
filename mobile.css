@@ -8,6 +8,7 @@
     height: 2px;
     background: white;
     margin: 8px;
+    transition: 0.3s;
 }
 
 @media (max-width: 999px) {
@@ -51,4 +52,14 @@
     }
 }
 
-.mobile-menu.active
+.mobile-menu.active .l1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .l2{
+    opacity: 0;
+}
+
+.mobile-menu.active .l3{
+    transform: rotate(45deg) translate(-5px, -7px)
+}
