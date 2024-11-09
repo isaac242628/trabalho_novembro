@@ -1,4 +1,9 @@
 @import url(mobile.css);
+@import url(rodape.css);
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
 
 * {
   margin: 0;
