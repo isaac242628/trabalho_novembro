@@ -1,6 +1,12 @@
-.item{
-    width: 200px;
-    height: 100px;
-    background-color: tomato;
-    border-radius: 6px;
+.tag-list{
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+}
+
+.tag-list li{
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.786);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem;
 }
