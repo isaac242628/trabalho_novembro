@@ -10,3 +10,15 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem -0.25rem;
 }
+
+.scroll{
+    max-width: 400px;
+    /* outline: 3px solid lime; */
+}
+
+.scroll__inner{
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
