@@ -10,6 +10,10 @@
   padding: 0;
 }
 
+body{
+  background: black;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -17,6 +21,8 @@ a {
 }
 
 header {
+  position: fixed;
+  width: 100%;
   padding: 20px;
   justify-content: space-between;
   align-items: center;
